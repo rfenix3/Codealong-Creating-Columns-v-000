@@ -33,6 +33,12 @@ header {
   line-height: 0;
 }
 
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+
+
 
 section {
   padding: 20px;
