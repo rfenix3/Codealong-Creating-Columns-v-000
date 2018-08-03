@@ -17,6 +17,16 @@ header {
     z-index: 1;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee
+}
+
 #social a{
   display: block;
   width: 40px;
