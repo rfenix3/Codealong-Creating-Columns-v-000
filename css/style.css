@@ -37,8 +37,9 @@ header {
   margin-left: 2%;
 }
 
-
-
+.first{
+  margin-left: 0%;
+}
 
 section {
   padding: 20px;
