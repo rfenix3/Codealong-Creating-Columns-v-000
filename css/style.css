@@ -24,6 +24,20 @@ header {
   background: yellow;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
 /* This
 is
 a comment! */
