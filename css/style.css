@@ -17,6 +17,14 @@ header {
     z-index: 1;
 }
 
+#social a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: yellow;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -36,20 +44,13 @@ header {
 .col-2 {
   float: left;
   width: 66%;
-  background: #ccc;  
+  background: #ccc;
 }
 
 .col-3 {
-  background: #ccc;    
+  background: #ccc;
 }
 
-
-#social a{
-  display: block;
-  width: 40px;
-  height: 40px;
-  background: yellow;
-}
 
 .clearfix:after {
   content: ".";
